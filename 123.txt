@@ -1,1 +1,28 @@
 Tere!
+
+*  -  kõik/all
+#   -  kommentaarid
+def  -   funktsioon
+\n   -  uuele reale(new line)
+len   - length 
+numbritele ei lähe jutumärke
+teksti võrreldes lähevad jutumärgid
+komadele ja plussidele võib tühikuid panna, doesnt matter
+
+ 1 jaguneb kolmeks:
+1) int - täisarv(?)
+2) float - komakohaga arv
+3) complex -  ei kasuta
+
+ A jaguneb:
+a) string - tähed,sõnad
+
+List [] - väärtustekogumid(paindlikum ja saab juurde lisada koguaeg)
+object {} - spetsiifilise elemendi kogum(?)
+kõik numbrid algavad 0st (mitte 1st)
+kui tahad midagi võrrelda siis kaks võrdusmärki ja kui tahad midagi omistada siis üks võrdusmärk (== / =)
+ELIF / ELSE 
+kui eelnev on true siis elif'i ei tee ja kui eelnev on false siis teeb
+kui ta ei saa eelnevaid tehtud siis teeb else'i, kui ta saab eelnevad tehtud siis ta else'i ei tee
+
+Or & and
