@@ -79,11 +79,11 @@ from math import *
 #if len(nimi)>20:
     #print("Liiga pikk")
 #if len(nimi)<8:
-    #print("Liiga lühike")  #kui see on true siis elif'i ei tee ja kui see on false siis teeb
+    #print("Liiga lühike")    #kui see on true siis elif'i ei tee ja kui see on false siis teeb
 #elif len(nimi)>3:
     #print("Tõene!")
 #else:
-    #print("Nojah")  #kui ta ei saa eelnevaid tehtud siis teeb else'i, kui ta saab eelnevaid tehtud siis ta else'i ei tee
+    #print("Nojah")      #kui ta ei saa eelnevaid tehtud siis teeb else'i, kui ta saab eelnevaid tehtud siis ta else'i ei tee
 
 #if 2==3 and 2==2:
     #print("test1")
@@ -92,6 +92,40 @@ from math import *
 #else:
     #print("Nojah")
 
-#if 3>2: print("shorthand") #kui if'iga on ainult üks tegevus siis shorthand, kui rohkem siis pole mõtet
+#if 3>2: print("shorthand")           #kui if'iga on ainult üks tegevus siis shorthand, kui rohkem siis pole mõtet
 
-    
+#if 3==4 or 4==4:
+    #print("on olemas")
+
+#if 4==4:
+    #if 5==4:
+       #print("on olemas nested if")
+
+#kasutaja sisestab arvu, meie vastame talle, kas tegemist on paarisarvu või paaritu arvuga
+#arv=int(input("Sisesta arv - "))
+#if arv%2==0:
+    #print("Paaris arv")
+#else:
+    #print("Paaritu arv")
+
+#Liigaasta
+#Kirjuta programm, mis kontrollib, kas antud positiivne täisarv on liig- või lihtaasta.
+#aasta on liigaasta, kui tema number jaguneb neljaga, välja arvatud need aastad mille number jagub sajaga, kuid ei jagu neljasajaga)
+aasta=int(input("Kirjuta aasta - "))
+if aasta%100==0:
+    if aasta%400!=0:
+        print("Lihtaasta")
+    else:
+        if aasta%4==0:
+            print("Liigaasta")
+        else:
+            print("Lihtaasta")
+else:
+    if aasta%4==0:
+        print("Liigaasta")
+    else:
+        print("Lihtaasta")
+
+
+
+
